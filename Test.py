@@ -1,8 +1,11 @@
 import tkinter
 ventana = tkinter.Tk()
 ventana.geometry("400x300")
-def saludo(nombre):
-        print("Hola " + nombre)
-boton1 = tkinter.Button(ventana, text = "Presiona", command = lambda: saludo("python"))
+cajaTexto = tkinter.Entry(ventana)
+cajaTexto.pack()
+def textoDeLaCaja():
+        text20 = cajaTexto.get()
+        print(text20)
+boton1 = tkinter.Button(ventana, text = "click", command = textoDeLaCaja)
 boton1.pack()
 ventana.mainloop()
