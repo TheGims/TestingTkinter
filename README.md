@@ -1,2 +1,2 @@
 # TestingTkinter
-Create this repository to practice Tkinter and learn how to use github.
+Created this repository to practice Tkinter and learn how to use github.
